@@ -102,4 +102,14 @@
   top: 10px;
 }
 
+.error{
+  width: auto;
+  height: auto;
+  background-color: red;
+  color: white;   
+  margin-left: 100px;
+  visibility: hidden;
+  position: relative;
+}
+
 
