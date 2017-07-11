@@ -20,7 +20,7 @@
 				alert("ingrese nombre");
 				return false;				
 			}
-			if(apeliido != apellido.upperCase(A-Z_)){
+			if(apelido != apellido.upperCase(A-Z_)){
 				alert("ingrese solo apellido con mayúscula");
 				return false;				
 			}
