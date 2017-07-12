@@ -17,15 +17,15 @@
 				return false;				
 			}
 			if(apellido === ""){
-				alert("ingrese nombre");
+				alert("ingrese apellido");
 				return false;				
 			}
-			if(apelido != apellido.upperCase(A-Z_)){
+			if(apellido != apellido.upperCase(A-Z_)){
 				alert("ingrese solo apellido con mayúscula");
 				return false;				
 			}
 			if(email === ""){
-				alert("ingrese nombre");
+				alert("ingrese Email");
 				return false;				
 			}
 			if(email != /^[A-Z_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/){
@@ -44,6 +44,7 @@
 				alert("ingrese password con letras y números distintos a 123456, 098765 y password");
 				return false;				
 			}
-		})
-	});
+			return false;
+		});
+	})
 /*}*/
